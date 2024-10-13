@@ -1,0 +1,56 @@
+# Node.js dependency folder
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE and editor specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# CSS generated files (if using any preprocessor like SCSS or LESS)
+*.sass-cache/
+*.scss-cache/
+*.css.map
+*.css.sourcemap
+
+# Compiled JavaScript files
+*.js.map
+
+# Ignore any build or output directories
+dist/
+build/
+out/
+
+# Ignore environment variable files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Ignore image optimization output (if you are doing this)
+*.optimized.*
+
+# Ignore GitHub Pages related files
+.github/
+
+# Ignore OS generated files (Windows/macOS/Linux)
+*.swp
+*.lock
+*.bak
+*.tmp
+*.old
